@@ -16,3 +16,10 @@ storiesOf("Demo", module)
     button.addEventListener("click", e => console.log(e));
     return button;
   });
+
+storiesOf("Design System|Atoms/Demo", module).add(
+  "test",
+  () => "<div>Atom Demo</div>"
+);
+
+storiesOf("App|Atoms/Demo", module).add("test", () => "<div>App Demo</div>");
