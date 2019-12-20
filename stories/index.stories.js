@@ -8,7 +8,10 @@ const VIEWPORT_MEDIUM = 1280;
 export default {
   title: "Demo",
   parameters: {
-    chromatic: { viewports: [VIEWPORT_XSMALL, VIEWPORT_SMALL, VIEWPORT_MEDIUM] }
+    chromatic: {
+      disable: false,
+      viewports: [VIEWPORT_XSMALL, VIEWPORT_SMALL, VIEWPORT_MEDIUM]
+    }
   }
 };
 
