@@ -1,7 +1,7 @@
 import { document, console } from "global";
 import { storiesOf } from "@storybook/html";
 
-storiesOf("Demo", module)
+storiesOf("Test|Atoms/Demo", module)
   .add("heading level 1", () => "<h1>Hello World</h1>")
   .add("heading level 2", () => "<h2>Hello World</h2>")
   .add("heading level 3", () => "<h3>Hello World</h3>")
