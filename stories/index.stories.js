@@ -1,8 +1,13 @@
 import { document, console } from "global";
 import { storiesOf } from "@storybook/html";
 
+const VIEWPORT_XSMALL = '400'
+const VIEWPORT_SMALL = '768'
+const VIEWPORT_MEDIUM = '1280'
+
 export default {
   title: "Demo"
+  parameters: { chromatic: { viewports: [VIEWPORT_XSMALL, VIEWPORT_SMALL, VIEWPORT_MEDIUM] }}
 };
 
 export const HeadingLevel1 = () => "<h1>Hello World</h1>";
