@@ -58,7 +58,7 @@ export const Button = () => {
 };
 
 Button.story = {
-  name: "button"
+  name: "button",
   parameters: {
     chromatic: { viewports: [VIEWPORT_SMALL, VIEWPORT_MEDIUM] }
   }
