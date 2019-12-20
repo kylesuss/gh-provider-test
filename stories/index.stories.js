@@ -1,34 +1,15 @@
 import { document, console } from "global";
 import { storiesOf } from "@storybook/html";
 
-const VIEWPORT_XSMALL = {
-  name: "xsmall",
-  styles: {
-    width: "400px",
-    height: "1000px"
-  }
-};
-
-const VIEWPORT_SMALL = {
-  name: "small",
-  styles: {
-    width: "768px",
-    height: "1000px"
-  }
-};
-
-const VIEWPORT_MEDIUM = {
-  name: "medium",
-  styles: {
-    width: "1280px",
-    height: "1000px"
-  }
-};
+const VIEWPORT_XSMALL = 400;
+const VIEWPORT_SMALL = 768;
+const VIEWPORT_MEDIUM = 1280;
 
 export default {
   title: "Demo",
   parameters: {
     chromatic: {
+      disable: false,
       viewports: [VIEWPORT_XSMALL, VIEWPORT_SMALL, VIEWPORT_MEDIUM]
     }
   }
@@ -82,7 +63,7 @@ export const Button = () => {
 Button.story = {
   name: "button",
   parameters: {
-    chromatic: { viewports: [VIEWPORT_SMALL, VIEWPORT_MEDIUM] }
+    chromatic: { disable: true, viewports: [VIEWPORT_SMALL, VIEWPORT_MEDIUM] }
   }
 };
 
