@@ -29,7 +29,6 @@ export default {
   title: "Demo",
   parameters: {
     chromatic: {
-      disable: false,
       viewports: [VIEWPORT_XSMALL, VIEWPORT_SMALL, VIEWPORT_MEDIUM]
     }
   }
@@ -83,7 +82,7 @@ export const Button = () => {
 Button.story = {
   name: "button",
   parameters: {
-    chromatic: { disable: true, viewports: [VIEWPORT_SMALL, VIEWPORT_MEDIUM] }
+    chromatic: { viewports: [VIEWPORT_SMALL, VIEWPORT_MEDIUM] }
   }
 };
 
