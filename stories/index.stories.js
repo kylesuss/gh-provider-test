@@ -1,9 +1,9 @@
 import { document, console } from "global";
 import { storiesOf } from "@storybook/html";
 
-const VIEWPORT_XSMALL = "400";
-const VIEWPORT_SMALL = "768";
-const VIEWPORT_MEDIUM = "1280";
+const VIEWPORT_XSMALL = 400;
+const VIEWPORT_SMALL = 768;
+const VIEWPORT_MEDIUM = 1280;
 
 export default {
   title: "Demo",
