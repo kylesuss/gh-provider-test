@@ -59,6 +59,9 @@ export const Button = () => {
 
 Button.story = {
   name: "button"
+  parameters: {
+    chromatic: { viewports: [VIEWPORT_SMALL, VIEWPORT_MEDIUM] }
+  }
 };
 
 storiesOf("Design System|Atoms/Demo", module).add(
