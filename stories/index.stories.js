@@ -1,9 +1,5 @@
 import { document, console } from "global";
 
-const VIEWPORT_XSMALL = 400;
-const VIEWPORT_SMALL = 768;
-const VIEWPORT_MEDIUM = 1280;
-
 export default {
   title: "Demo"
 };
@@ -54,8 +50,5 @@ export const Button = () => {
 };
 
 Button.story = {
-  name: "button",
-  parameters: {
-    chromatic: { disable: true, viewports: [VIEWPORT_SMALL, VIEWPORT_MEDIUM] }
-  }
+  name: "button"
 };
