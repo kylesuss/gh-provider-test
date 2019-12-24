@@ -4,31 +4,31 @@ export default {
   title: "Demo"
 };
 
-export const HeadingLevel1 = () => "<h1>Hello World</h1>";
+export const HeadingLevel1 = () => "<h1>Heading Level 1</h1>";
 
 HeadingLevel1.story = {
   name: "heading level 1"
 };
 
-export const HeadingLevel2 = () => "<h2>Hello World</h2>";
+export const HeadingLevel2 = () => "<h2>Heading Level 2</h2>";
 
 HeadingLevel2.story = {
   name: "heading level 2"
 };
 
-export const HeadingLevel3 = () => "<h3>Hello World</h3>";
+export const HeadingLevel3 = () => "<h3>Heading Level 3</h3>";
 
 HeadingLevel3.story = {
   name: "heading level 3"
 };
 
-export const HeadingLevel4 = () => "<h4>Hello World</h4>";
+export const HeadingLevel4 = () => "<h4>Heading Level 4</h4>";
 
 HeadingLevel4.story = {
   name: "heading level 4"
 };
 
-export const HeadingLevel5 = () => "<h5>Hello World</h5>";
+export const HeadingLevel5 = () => "<h5>Heading Level 5</h5>";
 
 HeadingLevel5.story = {
   name: "heading level 5"
