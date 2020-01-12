@@ -10,12 +10,6 @@ HeadingLevel1.story = {
   name: "heading level 1"
 };
 
-export const HeadingLevel2 = () => "<h2>Heading Level 2</h2>";
-
-HeadingLevel2.story = {
-  name: "heading level 2"
-};
-
 export const HeadingLevel3 = () => "<h3>Heading Level 3</h3>";
 
 HeadingLevel3.story = {
