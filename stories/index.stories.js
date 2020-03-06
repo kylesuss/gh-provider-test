@@ -4,7 +4,7 @@ export default {
   title: "Demo"
 };
 
-export const HeadingLevel1 = () => "<h1>Heading Level 1 Even Newer</h1>";
+export const HeadingLevel1 = () => "<h1>Heading Level 1 So New Wow</h1>";
 
 HeadingLevel1.story = {
   name: "heading level 1"
