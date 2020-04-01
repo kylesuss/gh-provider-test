@@ -7,7 +7,8 @@ export default {
 export const HeadingLevel1 = () => "<h1>Heading Level 1 Extra New</h1>";
 
 HeadingLevel1.story = {
-  name: "heading level 1"
+  name: "heading level 1",
+  parameters: { chromatic: { viewports: [800, 1200] } }
 };
 
 export const HeadingLevel3 = () => "<h3>Heading Level 3 New</h3>";
