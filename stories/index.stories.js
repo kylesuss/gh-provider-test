@@ -11,8 +11,8 @@ storiesOf("Demo", module)
   .add("button", () => {
     const button = document.createElement("button");
     button.type = "button";
-    button.style = "color:blue;";
-    button.innerText = "Hello Buttonz";
-    button.addEventListener("click", e => console.log(e));
+    button.style = "color:green;";
+    button.innerText = "Hello Button";
+    button.addEventListener("click", (e) => console.log(e));
     return button;
   });
