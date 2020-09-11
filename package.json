@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "chromatic": "CHROMATIC_INDEX_URL=http://localhost:3007 chromatic test --app-code vev48x3ol29",
-    "chromatic:staging": "CHROMATIC_INDEX_URL=https://index.staging-chromatic.com chromatic test --app-code lf3c95j8ho",
+    "chromatic:staging": "CHROMATIC_INDEX_URL=https://index.staging-chromatic.com chromatic test --app-code lf3c95j8ho --debug",
     "build-storybook": "build-storybook"
   },
   "repository": {
