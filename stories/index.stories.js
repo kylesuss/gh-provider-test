@@ -12,7 +12,7 @@ storiesOf("Demo", module)
     const button = document.createElement("button");
     button.type = "button";
     button.style = "color:blue;";
-    button.innerText = "For real -- This should fail";
+    button.innerText = "Shoutout to Tom";
     button.addEventListener("click", (e) => console.log(e));
     return button;
   });
