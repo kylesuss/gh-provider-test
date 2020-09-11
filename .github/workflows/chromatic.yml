@@ -1,0 +1,19 @@
+name: "Chromatic Staging"
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - run: |
+          yarn
+      - run: |
+          yarn build-storybook
+      - uses: chromaui/action@v1
+        env:
+          CHROMATIC_INDEX_URL: https://index.staging-chromatic.com
+        with:
+          projectToken: lf3c95j8ho
+          token: ${{ secrets.GITHUB_TOKEN }}
+          storybookBuildDir: storybook-static
