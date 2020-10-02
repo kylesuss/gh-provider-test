@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "chromatic": "CHROMATIC_INDEX_URL=http://localhost:3007 chromatic test --app-code vev48x3ol29",
+    "chromatic": "CHROMATIC_INDEX_URL=http://localhost:3007 chromatic test --project-token wb74n29tia",
     "chromatic:staging": "CHROMATIC_INDEX_URL=https://index.staging-chromatic.com chromatic test --app-code lf3c95j8ho --debug",
     "build-storybook": "build-storybook"
   },
@@ -22,6 +22,6 @@
     "@babel/core": "^7.5.5",
     "@storybook/html": "^5.1.9",
     "babel-loader": "^8.0.6",
-    "chromatic": "^5.2.0-beta.0"
+    "chromatic": "^5.2.0"
   }
 }

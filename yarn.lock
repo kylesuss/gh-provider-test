@@ -3115,10 +3115,10 @@ chownr@^1.1.1:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.2.tgz#a18f1e0b269c8a6a5d3c86eb298beb14c3dd7bf6"
   integrity sha512-GkfeAQh+QNy3wquu9oIZr6SS5x7wGdSgNQvD10X3r+AZr1Oys22HW8kAmDMvNg2+Dm0TeGaEuO8gFwdBXxwO8A==
 
-chromatic@^5.2.0-beta.0:
-  version "5.2.0-beta.0"
-  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-5.2.0-beta.0.tgz#5368b656b51e9f83e4a49bf809c737c173d3c901"
-  integrity sha512-qY3AJ2uX/Tf4ADdtWoO9buCuTWAPZ35y4QBRAlukxajkoWxYMSKaGf/nWFeORt22gp1EUXJFsAW1uKd016o6/w==
+chromatic@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-5.2.0.tgz#318fed3c36912151320ab2f6b5e466e7f826d8f6"
+  integrity sha512-uUf0aFsUMiWCxy95vsufbtwQDlqi4B8FsXwnBWGvm0cf+fDHclzfB2ERgFTnW0ye/3Ben1DwH5UAvcGrq+qLIg==
   dependencies:
     "@babel/preset-react" "^7.9.4"
     "@babel/runtime" "^7.9.2"
