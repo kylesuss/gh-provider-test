@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "chromatic": "CHROMATIC_INDEX_URL=http://localhost:3007 chromatic test --project-token wb74n29tia",
-    "chromatic:staging": "CHROMATIC_INDEX_URL=https://index.staging-chromatic.com chromatic test --app-code lf3c95j8ho --debug",
+    "chromatic": "chromatic test --project-token r3bceew1m9d",
+    "chromatic:staging": "CHROMATIC_INDEX_URL=https://index.staging-chromatic.com chromatic test --app-code r3bceew1m9d",
+    "chromatic:dev": "CHROMATIC_INDEX_URL=https://index.dev-chromatic.com chromatic test --app-code 9dg3shere7n",
     "build-storybook": "build-storybook"
   },
   "repository": {
