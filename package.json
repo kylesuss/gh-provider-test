@@ -8,7 +8,7 @@
     "storybook": "start-storybook -p 6006",
     "chromatic": "chromatic test --project-token r3bceew1m9d",
     "chromatic:staging": "CHROMATIC_INDEX_URL=https://index.staging-chromatic.com chromatic test --app-code lf3c95j8ho",
-    "chromatic:dev": "CHROMATIC_INDEX_URL=https://index.dev-chromatic.com chromatic test --app-code pbix4in99tc",
+    "chromatic:dev": "CHROMATIC_INDEX_URL=https://index.dev-chromatic.com chromatic test --app-code dvi26sbowd",
     "build-storybook": "build-storybook"
   },
   "repository": {
