@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "chromatic": "chromatic test --project-token 6324ba935a73",
+    "chromatic": "chromatic test --project-token 044a5b35806c",
     "chromatic:staging": "CHROMATIC_INDEX_URL=https://index.staging-chromatic.com chromatic test --app-code lf3c95j8ho",
     "chromatic:dev": "CHROMATIC_INDEX_URL=https://index.dev-chromatic.com chromatic test --app-code dvi26sbowd",
     "build-storybook": "build-storybook"
