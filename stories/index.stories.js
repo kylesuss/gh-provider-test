@@ -13,7 +13,7 @@ export const Paragraph = () => "<p>The quick brown fox jumped over the lazy dog.
 export const Button = () => {
   const button = document.createElement("button");
   button.type = "button";
-  button.style = "color:green;";
+  button.style = "color:red;";
   button.innerText = "Last chance baby!!";
   button.addEventListener("click", (e) => console.log(e));
   return button;
