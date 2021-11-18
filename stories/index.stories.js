@@ -21,7 +21,7 @@ export const Button = () => {
 
   const button = document.createElement("button");
   button.type = "button";
-  button.style = "color:purple;";
+  button.style = "color:red;";
   button.innerText = "I am buttonz!!";
   button.addEventListener("click", (e) => console.log(e));
 
@@ -42,6 +42,6 @@ Button.story = {
 
 export const TallThing = () => {
   const div = document.createElement("div");
-  div.style = "width: 400px; height: 2000px; background: red;";
+  div.style = "width: 600px; height: 2000px; background: red;";
   return div;
 }
