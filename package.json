@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "chromatic": "chromatic test --project-token 044a5b35806c",
-    "chromatic:staging": "CHROMATIC_INDEX_URL=https://index.staging-chromatic.com chromatic --project-token e7b6e20fa824",
+    "chromatic:staging": "HTTPS_PROXY=https://chromatic:e7b6e20fa824@enterprise-proxy.chromatic.com CHROMATIC_INDEX_URL=https://index.staging-chromatic.com chromatic --project-token e7b6e20fa824 --debug",
     "chromatic:dev": "CHROMATIC_INDEX_URL=https://index.dev-chromatic.com chromatic --project-token 5772c461f773",
     "build-storybook": "build-storybook"
   },
@@ -23,7 +23,7 @@
     "@babel/core": "^7.5.5",
     "@storybook/html": "^6.1.14",
     "babel-loader": "^8.0.6",
-    "chromatic": "^5.8.3",
+    "chromatic": "^5.10.0",
     "storybook-addon-playroom": "^2.0.0"
   }
 }
