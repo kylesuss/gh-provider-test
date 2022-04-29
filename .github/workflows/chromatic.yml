@@ -12,7 +12,7 @@ jobs:
         yarn
     - run: |
         yarn build-storybook
-    - uses: chromaui/action@v1
+    - uses: chromaui/action-canary@v1
       with: 
         projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
         token: ${{ secrets.GITHUB_TOKEN }}
